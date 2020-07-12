@@ -1,0 +1,30 @@
+.logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  background: #ffa86a;
+  color: black;
+  padding: 5px 10px;
+  white-space: nowrap;
+}
+ .header__logo {
+    display: flex;
+    flex: 1;
+	width: 50%;
+	margin: 0 auto;
+	margin-top: 20px;   
+ }
+.header__logo:after {
+      content: '';
+      background: repeating-linear-gradient(90deg, #ffa86a, #ffa86a 2px, transparent 0, transparent 10px);
+      display: block;
+      width: 100%;
+      right: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+	.header__logo {
+		width: 100%;
+	}
+}
+
