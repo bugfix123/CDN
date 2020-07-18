@@ -27,4 +27,12 @@
 		width: 100%;
 	}
 }
-
+.shortcode_bili {
+  width: 98%;
+  height: 500px;
+}
+@media only screen and (max-width: 768px) {
+  .shortcode_bili {    
+    height: 270px;
+  }
+}
