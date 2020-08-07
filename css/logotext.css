@@ -37,3 +37,13 @@
     height: 350px;
   }
 }
+
+a.read-more, a.read-more:active, a.read-more:hover {
+	display: inline-flex;
+	background: none;
+	box-shadow: none;
+	padding: 0;
+	margin: 20px 0 0;
+  font-weight: 700;
+  text-decoration: none;
+}
